@@ -80,7 +80,7 @@ abstract class Drektor_Muavini {
         this.menecer = menecer;
     }
 
-    public void getinfo(){
+    public final void getinfo(){
         System.out.println("Ad: "+ad);
         System.out.println("Yas: "+yas);
         System.out.println("Vesife: "+vezife);

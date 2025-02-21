@@ -46,4 +46,9 @@ public class Erazi_Meneceri extends Ofis_Menecer implements Tapsiriqlar{
     public Erazi_Meneceri (){
         super();
     }
+
+    public void getinfo2(){
+        super.getinfo();
+        System.out.println("Maas: "+this.maas);
+    }
 }

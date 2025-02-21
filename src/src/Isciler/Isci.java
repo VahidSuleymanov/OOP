@@ -14,8 +14,9 @@ public class Isci extends Erazi_Meneceri{
         this.maas2 = maas2;
     }
 
-    public Isci (String ad, int yas, String vezife, String erazi){
+    public Isci (String ad, int yas, String vezife, String erazi, double maas2){
         super(ad, yas, vezife, erazi);
+        this.maas2 = maas2;
     }
 
     public Isci (String ad, int yas, String vezife){
@@ -32,5 +33,10 @@ public class Isci extends Erazi_Meneceri{
 
     public Isci (){
         super();
+    }
+
+    public void getinfo1(){
+        super.getinfo();
+        System.out.println("Maas: "+this.maas2);
     }
 }
